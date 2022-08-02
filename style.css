@@ -94,3 +94,21 @@ p {
   text-align: start;
   background: none;
 }
+
+@media (max-width: 576px) {
+  img.homepage-im {
+    display: none;
+  }
+  h1 {
+    font-size: 62px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .homepage-p {
+    text-align: center;
+  }
+  img {
+    margin-bottom: 15px;
+  }
+}
